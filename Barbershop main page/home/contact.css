@@ -33,11 +33,31 @@ body{
     text-decoration: none;
 }
 
-p{
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    margin: auto;
+    color: white;
+    border: 1px solid white;
     text-align: center;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+   
 }
+
+.EmailBox {
+    margin: auto;
+padding-bottom: 20px;
+    
+}
+
+.CheckBox {
+    margin: auto;
+
+}
+
+
 
 @media screen and (max-width: 800px) {
     .column {
